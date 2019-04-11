@@ -8,11 +8,15 @@ namespace opdracht1._2
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            Console.WriteLine("HALLOOOO");
+            // Constructie
+            Leerling leerling1 = new Leerling();
+
+            // Functieaanroep
+            leerling1.Invoeren();
+            leerling1.Weergeven();
             Console.ReadKey();
         }
-
     }
 }
