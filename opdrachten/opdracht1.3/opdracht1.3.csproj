@@ -7,7 +7,7 @@
     <ProjectGuid>{5686A759-3A13-408E-9930-BC1D853642EA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>opdracht1._3</RootNamespace>
-    <AssemblyName>opdracht1._3</AssemblyName>
+    <AssemblyName>opdracht1.3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Burger.cs" />
+    <Compile Include="District.cs" />
+    <Compile Include="Hoogheemraadschap.cs" />
+    <Compile Include="Jaar.cs" />
+    <Compile Include="Kandidaat.cs" />
+    <Compile Include="Organisatie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stemmen.cs" />
+    <Compile Include="Stemmer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

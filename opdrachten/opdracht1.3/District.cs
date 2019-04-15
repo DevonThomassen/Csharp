@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/************************** Module Header *******************************\
+Project:        opdracht1.3
+Auteur:         Devon Thomassen
+Aanmaakdatum:   10-04-2019 
+Module naam:    District.cs
+
+Omschrijving:   opdracht1.3
+
+\************************************************************************/
+
+using System;
 
 namespace opdracht1._3
 {
@@ -12,7 +18,7 @@ namespace opdracht1._3
         public string districtH202;
 
         // Constructor
-        District()
+        public District()
         {
             districtH202 = "onbekend";
         }
@@ -20,7 +26,8 @@ namespace opdracht1._3
         // Functions
         public void Invoeren()
         {
-            Console.WriteLine("Voer uw district in: ");
+            // Implementatie
+            Console.Write("Voer uw district in: ");
             districtH202 = Console.ReadLine();
         }
     }

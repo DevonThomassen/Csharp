@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/************************** Module Header *******************************\
+Project:        opdracht1.3
+Auteur:         Devon Thomassen
+Aanmaakdatum:   10-04-2019 
+Module naam:    Jaar.cs
+
+Omschrijving:   opdracht1.3
+
+\************************************************************************/
+
+using System;
 
 namespace opdracht1._3
 {
@@ -12,16 +18,17 @@ namespace opdracht1._3
         public int jaarH203;
 
         // Constructor
-        Jaar()
+        public Jaar()
         {
             jaarH203 = 1980;
         }
 
         // Functions
-        public void Invoeren()
+        public void InvoerenJaar()
         {
+            // Implementatie
             string input;
-            Console.WriteLine("Voer het jaartal in: ");
+            Console.Write("Voer het jaartal in: ");
             input = Console.ReadLine();
             try
             {
@@ -30,8 +37,9 @@ namespace opdracht1._3
             catch
             {
                 jaarH203 = 0;
-                Console.WriteLine("Geen geldig jaartal ingevoerd.");
+                Console.Write("Geen geldig jaartal ingevoerd.");
             }
+            Console.Write("\n\n");
         }
     }
 }

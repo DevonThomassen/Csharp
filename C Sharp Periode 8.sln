@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hoofdstuk 1", "Hoofdstuk 1", "{69EE14DF-6AD8-4A19-A950-E3A776F73F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opdracht1.2", "..\opdracht1.2\opdracht1.2.csproj", "{41EFDA30-67F8-4242-8321-FDD47CD07FA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opdracht1.2", "Opdrachten\opdracht1.2\opdracht1.2.csproj", "{41EFDA30-67F8-4242-8321-FDD47CD07FA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opdrachten", "opdrachten", "{44C509CA-EAE0-416A-88BF-68279D33297A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opdracht1.3", "opdrachten\opdracht1.3\opdracht1.3.csproj", "{5686A759-3A13-408E-9930-BC1D853642EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

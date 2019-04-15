@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/************************** Module Header *******************************\
+Project:        opdracht1.3
+Auteur:         Devon Thomassen
+Aanmaakdatum:   10-04-2019 
+Module naam:    Burger.cs
+
+Omschrijving:   opdracht1.3
+
+\************************************************************************/
+
+using System;
 
 namespace opdracht1._3
 {
@@ -12,7 +18,7 @@ namespace opdracht1._3
         public int bsnH201;
 
         // Constructor
-        Burger()
+        public Burger()
         {
             bsnH201 = 0;
         }
@@ -20,8 +26,9 @@ namespace opdracht1._3
         // Functions
         public void Invoeren()
         {
-            string input; // try - catch 
-            Console.WriteLine("Voer je bsn in: ");
+            // Implementatie
+            string input; 
+            Console.Write("Voer je bsn in: ");
             input = Console.ReadLine();
             try
             {
